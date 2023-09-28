@@ -51,7 +51,7 @@ void Main()
 		{ Texture{ U"🍫"_emoji }, 300.0, 200, 500},
 		{ Texture{ U"🍦"_emoji }, 500.0, 500, 300},
 		{ Texture{ U"🍰"_emoji }, 600.0, 800, 100},
-		{ Texture{ U"🍡"_emoji }, 700.0, 1000, 10},
+		{ Texture{ U"🍡"_emoji }, 900.0, 10000, 10},
 		{ Texture{ U"🍺"_emoji }, 400.0, -10000, 1000},
 	};
 
@@ -120,7 +120,7 @@ void Main()
 					type = (RandomBool(0.7) ? 2 : 3);
 				}
 				if (r == 2) {
-					type = (RandomBool(0.9) ? 5 : 4);
+					type = (RandomBool(0.6) ? 5 : 4);
 				}
 				// 新しく出現するアイテムを配列に追加する
 				items << Item
